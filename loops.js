@@ -22,6 +22,13 @@ function whileLoop(num){
 
 function doWhileLoop(array){
   do{
+    array.pop()
     incrementVariable()
   } while(array.length > 0 && incrementVariable())
+}
+
+var i = 0;
+ 
+function incrementVariable() {
+  i = i + 1;
 }
