@@ -9,3 +9,4 @@ function forLoop(array){
     }
   }
 }
+console.log(array)
