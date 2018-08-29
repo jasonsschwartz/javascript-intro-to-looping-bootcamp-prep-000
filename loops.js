@@ -10,4 +10,12 @@ function forLoop(array){
   }
   return array
 }
-console.log(array)
+
+
+function whileLoop(num){
+  while(num>=0){
+    console.log(num)
+    num--
+  }
+  console.log("done")
+}
